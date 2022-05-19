@@ -1,0 +1,193 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+.logo{
+	text-align: left;
+}
+.logo img{
+	width: 80px;
+	height: 50px;
+	margin-left: 40px;
+}
+.navbar input[type=text] {
+  float: right;
+  padding: 6px;
+  border: solid;
+  border-color: burlywood;
+  margin-top: 8px;
+  margin-right: 400px;
+  font-size: 17px;
+  }
+.navbar{
+ 	text-align: right;
+ 	width: 100%;
+ 	padding: 35px 0;
+ 	align-items: center;
+ 	justify-content: space-between;
+ 	float: left;
+ 	
+}
+.navbar h2{
+	text-align: left;
+	font-family: cursive;
+}
+
+.navbar a{
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+	flex: 1;
+	margin-left: 40px;
+}
+.container img{
+	width: 600px;
+	height: 250px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+.text{
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	left: 35%;
+	line-height: 2;
+	color: solid black;	
+}
+.text h3{
+	font-size: 130%;
+	font-family: cursive;
+}
+.text button{
+	text-align: center;
+	font-weight: bold;
+	top: 60%;
+	left: 20%;
+	background-color: transparent;
+	cursor: pointer;
+}
+.categories{
+	text-align: center;
+}
+
+.categories>*{
+	margin: 2%;
+}
+.categories a{
+	color: saddlebrown;
+	margin-right:40px ;
+ 	
+}
+.display img{
+	width: 250px;
+	height: 350px;	
+}
+.containers{
+	float: left;
+	justify-content: space-between;
+}
+
+
+.box1{
+	background-color: burlywood;
+	border-style: none;
+	width: 400px;
+	padding: 20px;
+	margin-left: 100px;
+	margin-top: 40px;
+	text-align: center;
+	font-family: fantasy;
+}
+.box2{
+	background-color: burlywood;
+	border-style: none;
+	width: 300px;
+	margin-left: 700px;
+	margin-top: -220px;
+	text-align: center;
+	font-size: 200%;
+	font-weight: bold;
+	font-style: oblique;
+	font-family: cursive;
+}
+.box2 button{
+	font-weight: bold;
+}
+.deals button{
+	border-style: solid;
+	font-family: cursive;
+	font-size: 200%;
+	margin: 25px;
+	text-align: center;
+	width: 60%;
+	margin-left: 200px;
+}
+
+.reviews h3{
+	text-align: center;
+}
+.rev1{
+	border-style: solid;
+	width: 200px;
+	padding: 20px;
+	margin-left: 100px;
+	margin-top: 30px;
+	text-align: center;
+	font-family: fantasy;
+}
+.rev2{
+	border-style: solid;
+	width: 200px;
+	padding: 20px;
+	margin-left: 400px;
+	margin-top: -120px;
+	text-align: center;
+	font-family: fantasy;
+}
+.rev3{
+	border-style: solid;
+	width: 200px;
+	padding: 20px;
+	margin-left: 700px;
+	margin-top: -120px;
+	text-align: center;
+	font-family: fantasy;
+}
+.reviews button{
+	margin-left: 800px;
+	margin-top: 10px;
+	padding-top: 10px;
+}
+
+.container2{
+	max-width: 1170 px;
+	display: flex;
+	color: black;
+}
+.container2>*{
+	margin: 2%;
+}
+
+
+.footer{
+	padding: 50px 0;
+}
+.footer h5{
+	content: '';
+	color: saddlebrown;
+	height: 3px;
+	box-sizing: border-box ;
+	margin-left: 80px;
+}
+.footer a{
+	color: saddlebrown;
+
+
+}
+
+
+
+
